@@ -77,7 +77,7 @@ const obj = {
 obj.normalFunc();
 obj.arrowFunc();
 
-//exapmle 2
+// exapmle 2
 
  function Person(name) {
     this.name = name;
@@ -90,5 +90,6 @@ obj.arrowFunc();
 
 const p = new Person("vivek");
 
- console.log(p);
+ console.log(p);    
  
+
