@@ -1,0 +1,2 @@
+ Hello everone i am talking from a.txt file.
+ Welcome to javascript world
