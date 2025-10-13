@@ -1,5 +1,7 @@
 // quotes in string
 
+const { log } = require("console");
+
 let single = 'Rahul';
 let double = "Rana";
 let backtick = `Rajput`
@@ -110,6 +112,46 @@ while(true){
     pos = foundPos +1;
     
 }
+
+// include method to search in a string
+
+console.log("widget".includes("id"));  // true
+console.log("hello".includes("BYe")); // false
+
+console.log("widget".includes("id", 2)); // false
+
+// startsaWith or endsWith method to dsearch in a string
+
+console.log("widget".startsWith("wid"));
+console.log("wodget".endsWith("get"));
+
+//GETTING A SUBSTRING - slice substr substring
+console.log("slice");
+
+ let str5 = "stringify";
+ console.log(str5.slice(2,6)); // ring end not include
+ console.log(str5.slice(2)); // ringify
+ console.log(str5.slice(-4,-1));
+
+ console.log("substring");
+
+ console.log(str5.substring(2,6));
+ console.log(str5.substring(6,2));
+ console.log(str5.slice(6,2)+"khali");
+ 
+ console.log("substr");
+let str6 = "rahul rana"
+ console.log(str6.substr(2,4));
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
 
 
 
